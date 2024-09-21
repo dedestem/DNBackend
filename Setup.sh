@@ -1,4 +1,5 @@
 #!/bin/sh
+# DESIGNED FOR UBUNTU
 
 # Check if ran with sudo
 if [ "$EUID" -ne 0 ]; then
@@ -6,10 +7,10 @@ if [ "$EUID" -ne 0 ]; then
     exit 1
 fi
 
-# Install curl and rclone
+# Install curl and git
 sudo apt update
 sudo apt install curl
-sudo apt install rclone
+sudo apt install git
 
 # Add Docker Repo + Keys
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
@@ -30,4 +31,8 @@ sudo chmod +x /usr/local/bin/docker-compose
 # Install Tools
 sudo apt update
 sudo apt install micro
+sudo apt install rclone
 
+# Install node and npm
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt install -y nodejs

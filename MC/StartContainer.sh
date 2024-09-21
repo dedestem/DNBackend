@@ -1,6 +1,7 @@
 #!/bin/bash
 echo "-----------------------------"
 echo "Hello!"
+echo "Downloading / Updating From"
 docker pull amazoncorretto:21-alpine
 echo "Checking if PreServer exists"
 if [ -d "./PreServer" ]; then
