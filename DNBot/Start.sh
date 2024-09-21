@@ -13,6 +13,9 @@ git clone https://github.com/dedestem/DNBot/
 echo "Cloning Config"
 cp Config.json DNBot/Config.json
 
-echo "Bye. Say hello to Run.sh"
 cd DNBot
+echo "Installing NPM Dependencies"
+npm install
+
+echo "Bye. Say hello to Run.sh"
 bash Run.sh
