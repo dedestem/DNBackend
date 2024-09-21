@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  DNBot:
+    build: .
+    container_name: DNBot
+    restart: alwayss
