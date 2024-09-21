@@ -1,0 +1,18 @@
+#!/bin/bash
+echo "Hello"
+
+echo "Checking if StateAPI Exists"
+if [ -d "StateAPI" ]; then
+  rm -rf StateAPI
+  echo "Old StateAPI deleted"
+fi
+
+echo "Downloading newest StateAPI version"
+git clone https://github.com/dedestem/StateAPI/
+
+cd StateAPI
+echo "Installing NPM Dependencies"
+npm install
+
+echo "Bye. Say hello to Run.sh"
+bash Run.sh
