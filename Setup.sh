@@ -11,6 +11,7 @@ fi
 sudo apt update
 sudo apt install curl
 sudo apt install git
+sudo apt install screen
 
 # Add Docker Repo + Keys
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
