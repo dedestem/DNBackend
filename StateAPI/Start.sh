@@ -16,4 +16,4 @@ echo "Installing NPM Dependencies"
 npm install
 
 echo "Bye. Say hello to Run.sh"
-screen -S StateAPI -dm "./Run.sh"
+bash Run.sh
