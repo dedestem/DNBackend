@@ -20,4 +20,4 @@ echo "Installing NPM Dependencies"
 npm install
 
 echo "Bye. Say hello to Run.sh"
-screen -dmS DNBot "./Run.sh"
+screen -S DNBot -dm "./Run.sh"
