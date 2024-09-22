@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "Hello"
+screen -S StateAPI -X quit
 
 echo "Checking if StateAPI Exists"
 if [ -d "StateAPI" ]; then
@@ -15,4 +16,4 @@ echo "Installing NPM Dependencies"
 npm install
 
 echo "Bye. Say hello to Run.sh"
-bash Run.sh
+screen -dmS StateAPI "./Run.sh"
