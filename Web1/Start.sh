@@ -11,3 +11,9 @@ echo "Downloading newest Web1 version"
 cd ROOT
 git clone https://github.com/dedestem/Web1 .
 cd ..
+
+echo "Updating docker from"
+docker pull nginx:alpine
+
+echo "Starting Container"
+docker-compose up -d
