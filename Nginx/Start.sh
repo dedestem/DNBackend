@@ -1,15 +1,16 @@
 #!/bin/bash
 echo "Hello"
-echo "Checking if ROOT Exists"
-if [ -d "ROOT" ]; then
-  rm -rf ROOT
-  echo "Old ROOT deleted"
+echo "Checking if nginx Exists"
+if [ -d "nginx" ]; then
+  rm -rf nginx
+  echo "Old nginx deleted"
 fi
-mkdir ROOT
+mkdir -p nginx/conf.d nginx/vhost.d nginx/html nginx/certs
 
 echo "Downloading newest Web1 version"
-cd ROOT
+cd nginx/html
 git clone https://github.com/dedestem/Web1 .
+cd ..
 cd ..
 
 echo "Updating docker from"
