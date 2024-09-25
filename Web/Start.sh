@@ -15,5 +15,8 @@ cd ..
 echo "Updating docker from"
 docker pull nginx:alpine
 
-echo "Starting Container"
+echo "Building docker container"
+docker-compose build --no-cache
+echo "-----------------------------"
+echo "Starting the Docker container!"
 docker-compose up -d
