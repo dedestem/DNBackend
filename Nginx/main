@@ -17,7 +17,7 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/web1.davidnet.net/privkey.pem;  # Pad naar je privésleutel voor web1
 
     # Document root voor web1
-    root /var/www/web1;
+    root /var/www/Web1;
     index index.html;
 
     location / {
@@ -44,7 +44,7 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/web2.davidnet.net/privkey.pem;  # Pad naar je privésleutel voor web2
 
     # Document root voor web2
-    root /var/www/web2;
+    root /var/www/Web2;
     index index.html;
 
     location / {
