@@ -1,0 +1,17 @@
+# Configuratie voor web1.davidnet.net
+server {
+    listen 80;
+    server_name web1.davidnet.net;
+
+    # Redirect HTTP naar HTTPS voor web1
+    return 301 https://$host$request_uri;
+}
+
+# Configuratie voor web2.davidnet.net
+server {
+    listen 80;
+    server_name web2.davidnet.net;
+
+    # Redirect HTTP naar HTTPS voor web2
+    return 301 https://$host$request_uri;
+}
