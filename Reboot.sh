@@ -9,7 +9,7 @@ cd "$(dirname "$0")"
 cd MC
 bash Stop.sh
 
-echo "Reboot planned over 500 seconds"
+echo "Reboot planned over 20 seconds"
 sleep 20 # Níet nodig maar geef het wat extra tijd
 
 echo "Rebooting"
