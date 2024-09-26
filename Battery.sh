@@ -26,13 +26,6 @@ while true; do
         bash MC/Stop.sh >> "$log_file" 2>&1
         log_message "Executed MC/Stop.sh with output logged."
 
-        # Wait for 500 seconds
-        sleep 500
-
-        # Log shutdown
-        log_message "Shutting down the server."
-        sudo shutdown now  # Use `shutdown` command to power off the server
-
         break  # Exit the loop
     fi
 

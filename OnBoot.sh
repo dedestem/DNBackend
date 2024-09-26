@@ -31,5 +31,8 @@ log_file="Bootlogs/${current_date}.log"
     bash Start.sh
     cd ..
 
+    echo "Starting Battery management"
+    screen -dmS StateAPI sudo bash Battery.sh
+
     echo "Boot complete"
 } >> "$log_file" 2>&1
