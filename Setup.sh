@@ -33,6 +33,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo apt update
 sudo apt install micro
 sudo apt install rclone
+sudo apt install acpi # Required for stateapi
 
 # Install node and npm
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
