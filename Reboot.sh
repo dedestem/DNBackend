@@ -10,7 +10,7 @@ cd MC
 bash Stop.sh
 
 echo "Reboot planned over 500 seconds"
-sleep 500 # Níet nodig maar geef het wat extra tijd
+sleep 20 # Níet nodig maar geef het wat extra tijd
 
 echo "Rebooting"
 sudo reboot
