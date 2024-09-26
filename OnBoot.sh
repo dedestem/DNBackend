@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Create the Bootlog directory if it doesn't exist
-mkdir -p Bootlog
+cd "$(dirname "$0")"
 
-# Get the current date in the desired format (e.g., YYYY-MM-DD)
-current_date=$(date +"%Y-%m-%d")
-log_file="Bootlog/${current_date}.log"
+mkdir -p Bootlogs
+
+current_date=$(date +"%Y-%m-%d_%H-%M-%S")
+log_file="Bootlogs/${current_date}.log"
 
 # Log the boot process
 {
