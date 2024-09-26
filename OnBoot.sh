@@ -12,6 +12,10 @@ log_file="Bootlogs/${current_date}.log"
     echo "Hello booting up!"
     echo "Current directory: $(pwd)"
 
+    echo "Waiting 10 seconds fore network startup!"
+    sleep 10
+    echo "Waited for network done!"
+
     echo "Booting StateAPI"
     cd StateAPI || { echo "Failed to enter StateAPI"; exit 1; }
     bash Start.sh
