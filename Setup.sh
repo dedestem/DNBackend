@@ -37,3 +37,7 @@ sudo apt install rclone
 # Install node and npm
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt install -y nodejs
+
+# Install NGINX and certbot
+sudo apt install nginx
+sudo apt install certbot
