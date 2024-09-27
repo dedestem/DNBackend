@@ -31,6 +31,11 @@ log_file="Bootlogs/${current_date}.log"
     bash Start.sh
     cd ..
 
+    echo "Starting DB1"
+    cd DB1 || { echo "Failed to enter DB1"; exit 1; }
+    bash Start.sh
+    cd ..
+
     echo "Starting Battery management"
     screen -dmS Battery bash Battery.sh
 

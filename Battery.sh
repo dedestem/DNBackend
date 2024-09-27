@@ -24,7 +24,8 @@ while true; do
         
         # Execute your Stop script and log output
         bash MC/Stop.sh >> "$log_file" 2>&1
-        log_message "Executed MC/Stop.sh with output logged."
+        bash DB1/Stop.sh >> "$log_file" 2>&1
+        log_message "Executed stops"
 
         break  # Exit the loop
     fi
