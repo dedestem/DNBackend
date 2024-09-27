@@ -13,6 +13,7 @@
 ### Server 1
  - 80 - Web http
  - 443 - Web https
+ - 3306 - DB1 > db1.davidnet.net
  &nbsp;
  - 22 - SSH > ssh.davidnet.net
  - 5000 - StateAPI - 80 > stateapi.davidnet.net
