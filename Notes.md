@@ -6,7 +6,7 @@
  - 25565 - Minecraft > play.davidnet.net
  - 400 - Minecraft Tom & Robin
  &nbsp;
- - 85 - Unused
+ - 85 - PHPmyadmin
 
   &nbsp;
    - 5000 - bezet door intern gebruik maar open (Kan op andere nodes dan server1 gebruikt worden)
@@ -21,7 +21,7 @@
  - 25565 - Minecraft > play.davidnet.net
  - 400 - Minecraft Tom & Robin
  &nbsp;
- - 85 - Unused
+ - 85 - PHPmyadmin
 
 
 ELIMMC zit niet in repo
