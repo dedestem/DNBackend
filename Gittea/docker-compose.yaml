@@ -1,0 +1,36 @@
+version: "3"
+
+services:
+  gitea:
+    image: gitea/gitea:latest
+    container_name: gitea
+    environment:
+      - USER_UID=1000
+      - USER_GID=1000
+      - DB_TYPE=mysql
+      - DB_HOST=gitdb:3308
+      - DB_NAME=gitea
+      - DB_USER=gitea
+      - DB_PASSWD=gitea
+    restart: always
+    volumes:
+      - ./gitea:/data
+    ports:
+      - "3000:3000"
+      - "222:22"
+    depends_on:
+      - gitdb
+
+  gitdb:
+    image: mysql:5.7
+    container_name: gitdb
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=rootpassword
+      - MYSQL_DATABASE=gitea
+      - MYSQL_USER=gitea
+      - MYSQL_PASSWORD=gitea
+    ports:
+      - "3308:3306"
+    volumes:
+      - ./mysql:/var/lib/mysql
