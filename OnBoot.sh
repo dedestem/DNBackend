@@ -12,7 +12,7 @@ log_file="Bootlogs/${current_date}.log"
     echo "Hello booting up!"
     echo "Current directory: $(pwd)"
 
-    echo "Waiting 10 seconds fore network startup!"
+    echo "Waiting 10 seconds for network startup!"
     sleep 10
     echo "Waited for network done!"
 
