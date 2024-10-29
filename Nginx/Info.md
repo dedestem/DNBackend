@@ -14,6 +14,7 @@
 ``` sudo certbot --nginx -d web1.davidnet.net ```
 ``` sudo certbot --nginx -d web2.davidnet.net ```
 ``` sudo certbot --nginx -d gittea.davidnet.net ```
+``` sudo certbot --nginx -d placeholder.davidnet.net ```
 
 
 # General use
