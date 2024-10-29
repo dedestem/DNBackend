@@ -4,7 +4,7 @@
  &nbsp;
  - 22 - SSH > ssh.davidnet.net
  - 25565 - Minecraft > play.davidnet.net
- - 400 - Minecraft Tom & Robin
+ - 400 - Forwarded naar server 1
  &nbsp;
  - 85 - PHPmyadmin
 
@@ -18,10 +18,8 @@
  &nbsp;
  - 22 - SSH > ssh.davidnet.net
  - 4000 - StateAPI - 80 > stateapi.davidnet.net
+ - 9000 - Placeholder - 80 > placeholder.davidnet.net
  - 25565 - Minecraft > play.davidnet.net
- - 400 - Minecraft Tom & Robin
+
  &nbsp;
  - 85 - PHPmyadmin
-
-
-ELIMMC zit niet in repo
