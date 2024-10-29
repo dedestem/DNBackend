@@ -71,7 +71,7 @@ server {
 # Config for Placeholder API
 server {
     listen 80;
-    server_name Placeholder.davidnet.net;
+    server_name placeholder.davidnet.net;
 
     location / {
         proxy_pass http://localhost:9000;
