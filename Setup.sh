@@ -42,3 +42,6 @@ sudo apt install -y nodejs
 # Install NGINX and certbot
 sudo apt install nginx
 sudo apt install certbot
+
+cd Placeholder
+sudo bash InstallSudoPackages.sh

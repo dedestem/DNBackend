@@ -68,6 +68,21 @@ server {
 }
 
 
+# Config for Placeholder API
+server {
+    listen 80;
+    server_name Placeholder.davidnet.net;
+
+    location / {
+        proxy_pass http://localhost:9000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+
+
 # GITTEA
 server {
     listen 80;

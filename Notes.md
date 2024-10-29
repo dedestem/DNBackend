@@ -5,6 +5,7 @@
  - 22 - SSH > ssh.davidnet.net
  - 25565 - Minecraft > play.davidnet.net
  - 400 - Forwarded naar server 1
+ - 9000 - Placeholder API
  &nbsp;
  - 85 - PHPmyadmin
 
