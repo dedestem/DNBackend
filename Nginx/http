@@ -41,3 +41,14 @@ server {
     # Redirect HTTP naar HTTPS
     return 301 https://$host$request_uri;
 }
+
+# Als geen config bestaat!
+server {
+    listen 80 default_server;
+    server_name _;
+
+    location / {
+        return 302 https://davidnet.net/Errors/Lost;
+    }
+}
+
