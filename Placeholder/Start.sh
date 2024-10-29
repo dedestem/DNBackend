@@ -14,10 +14,6 @@ git clone https://github.com/dedestem/Placeholder/
 cd Placeholder
 cd back-end
 
-echo "Installing pkg-config depedencies"
-apt update
-apt install -y build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev pkg-config
-
 echo "Installing NPM Dependencies"
 npm install
 
