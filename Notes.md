@@ -9,7 +9,7 @@
  - 85 - PHPmyadmin
 
   &nbsp;
-   - 5000 - bezet door intern gebruik maar open (Kan op andere nodes dan server1 gebruikt worden)
+   - 5000 - Forwarded naar server 1
 
 ### Server 1
  - 80 - Web http
@@ -17,7 +17,7 @@
  - 3306 - DB1 > db1.davidnet.net
  &nbsp;
  - 22 - SSH > ssh.davidnet.net
- - 5000 - StateAPI - 80 > stateapi.davidnet.net
+ - 4000 - StateAPI - 80 > stateapi.davidnet.net
  - 25565 - Minecraft > play.davidnet.net
  - 400 - Minecraft Tom & Robin
  &nbsp;
