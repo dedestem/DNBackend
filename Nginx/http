@@ -1,0 +1,43 @@
+# HTTP omleidingen voor web1
+server {
+    listen 80;
+    server_name web1.davidnet.net;
+
+    # Redirect HTTP naar HTTPS voor web1
+    return 301 https://$host$request_uri;
+}
+
+# HTTP omleidingen voor web2
+server {
+    listen 80;
+    server_name web2.davidnet.net;
+
+    # Redirect HTTP naar HTTPS voor web2
+    return 301 https://$host$request_uri;
+}
+
+# HTTP omleiding voor StateAPI zonder HTTPS
+server {
+    listen 80;
+    server_name StateAPI.davidnet.net;
+
+    return 301 https://$host$request_uri;
+}
+
+# HTTP omleiding voor Placeholder API
+server {
+    listen 80;
+    server_name placeholder.davidnet.net;
+
+    # Redirect HTTP naar HTTPS
+    return 301 https://$host$request_uri;
+}
+
+# HTTP omleiding voor Gittea
+server {
+    listen 80;
+    server_name gittea.davidnet.net;
+
+    # Redirect HTTP naar HTTPS
+    return 301 https://$host$request_uri;
+}
