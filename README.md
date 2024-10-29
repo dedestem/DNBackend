@@ -7,3 +7,8 @@ Designed for ubuntu
  
  - Get DNBot config file
  - Configure other configs
+
+### SUDO Crontab
+sudo crontab -e
+
+0 0 * * 0 /usr/bin/certbot renew --quiet
