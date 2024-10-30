@@ -25,3 +25,7 @@
 &nbsp;
  - Certs hernieuwen
 ``` sudo certbot renew ```
+
+
+### crontab
+See Notes.md certbot renew is automated to renew each Sunday at 0:00
