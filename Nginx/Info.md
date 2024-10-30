@@ -1,11 +1,6 @@
 # Setup
 
- - ⚠ gebruik geen 80 naar 443 forwardingen (Daarom aanvragen voordat het afloopt) wanneer je nieuwe certificaten aanvraagt of opnieuw dingen instelt je kan geen https doorsturen hebben wanneer je geen certs hebt
- &nbsp;
- -  ⚠ Zorg ervoor dat je ports geforwaard hebt voordat je aanvraagt!
- &nbsp;
- - Nadat je ze hebt aanvgevraagt kan je main gebruiken
-
+ - ⚠ Forward een Nieuw domain eerst dan certifecaten aanvragen dan pas config maken 
 
 &nbsp;
 
