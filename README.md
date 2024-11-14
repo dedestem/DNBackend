@@ -1,7 +1,7 @@
 # DNBackend
 Designed for ubuntu
 
-> **⚠ Warning**<br> DNBackend isng designed or configured to run outside of davidnet
+> **⚠ Warning**<br> DNBackend isnt designed or configured to run outside of davidnet
 
 ### Setup
  - Clone
