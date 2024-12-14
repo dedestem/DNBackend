@@ -10,6 +10,7 @@
 
  &nbsp;
  - 4000 - Vrij (Niet op server1)
+ - 6000 - Vrij (Niet op server1)
  - 9000 - Vrij (Niet op server1)
  - 85 - Vrij (Niet op server1)
 
@@ -20,8 +21,9 @@
  - 
  &nbsp;
  - 22 - SSH - 22 > ssh.davidnet.net
- - 4000 - StateAPI - 80 > stateapi.davidnet.net
- - 9000 - Placeholder - 80 > placeholder.davidnet.net
+ - 4000 - StateAPI > stateapi.davidnet.net
+ - 6000 - Chat-Backend > chat.davidnet.net
+ - 9000 - Placeholder > placeholder.davidnet.net
  - 25565 - Minecraft - 25565 > play.davidnet.net
 
  &nbsp;
