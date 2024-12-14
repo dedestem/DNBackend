@@ -9,7 +9,7 @@
  &nbsp;
 
  &nbsp;
- - 5000 - Vrij (Niet op server1)
+ - 4000 - Vrij (Niet op server1)
  - 9000 - Vrij (Niet op server1)
  - 85 - Vrij (Niet op server1)
 
