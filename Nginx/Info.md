@@ -12,6 +12,7 @@
  - ``` sudo certbot --nginx -d placeholder.davidnet.net ```
  - ``` sudo certbot --nginx -d stateapi.davidnet.net ```
  - ``` sudo certbot --nginx -d myadmin.davidnet.net ```
+ - ``` sudo certbot --nginx -d chat.davidnet.net ```
 
 # General use
 
