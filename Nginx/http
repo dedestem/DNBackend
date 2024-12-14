@@ -51,6 +51,15 @@ server {
     return 301 https://$host$request_uri;
 }
 
+# Chat
+server {
+    listen 80;
+    server_name chat.davidnet.net;
+
+    # Redirect all HTTP requests to HTTPS
+    return 301 https://$host$request_uri;
+}
+
 # Als geen config bestaat!
 server {
     listen 80 default_server;
