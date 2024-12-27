@@ -136,3 +136,20 @@ server {
 
 }
 
+# HTTPS server voor dash
+server {
+    listen 443 ssl;
+    server_name dash.davidnet.net;
+
+    # SSL-configuratie voor web2
+    ssl_certificate /etc/letsencrypt/live/dash.davidnet.net/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/dash.davidnet.net/privkey.pem;
+
+    # Document root voor web2
+    root /var/www/dash;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
