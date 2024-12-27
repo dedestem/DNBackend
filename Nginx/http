@@ -69,13 +69,3 @@ server {
         return 302 https://davidnet.net/Errors/Lost;
     }
 }
-
-
-# HTTP omleidingen voor dash
-server {
-    listen 80;
-    server_name dash.davidnet.net;
-
-    # Redirect HTTP naar HTTPS voor dash
-    return 301 https://$host$request_uri;
-}
